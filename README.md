@@ -14,3 +14,7 @@ docker-compose --version
 # INSTALAR GIT
 sudo apt install git -y
 git clone https://github.com/lavolamagik/prestahsop.git
+
+#ACTIVAR LOS CONTENEDORES
+cd prestahsop/
+sudo docker-compose up -d
